@@ -8,7 +8,7 @@ const SocialLinks = () => {
     <ul className={classes.iconContainer}>
       <li>
         <Link to="/">
-          <img src={fbIcon}></img>
+          <img src={fbIcon} className={classes.invert}></img>
         </Link>
       </li>
       <li>
