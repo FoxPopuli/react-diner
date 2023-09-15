@@ -1,0 +1,21 @@
+.dinerButton {
+  border-radius: 10%;
+  border-top: solid var(--main-highlight) 2px;
+  border-bottom: solid var(--main-highlight) 2px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 22px;
+
+  transition: padding 0.3s ease;
+}
+
+.dinerButton:hover {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--main-highlight);
+}
