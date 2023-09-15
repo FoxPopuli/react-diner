@@ -1,8 +1,7 @@
-import SocialLinks from "../components/SocialLinks/SocialLinks";
 const Homepage = () => {
   return (
     <div>
-      <p>Homepage</p>
+      <h1>Homepage</h1>
     </div>
   );
 };

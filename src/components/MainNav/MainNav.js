@@ -8,7 +8,7 @@ const MainNav = () => {
       <h3 className={classes.logo}>Jane's Diner</h3>
       <ul className={classes.list}>
         <li className={classes.headerLinks}>
-          <Link to="/">About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li className={classes.headerLinks}>
           <Link to="/">Our Menus</Link>
