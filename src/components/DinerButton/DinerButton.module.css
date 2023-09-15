@@ -4,10 +4,10 @@
   border-bottom: solid var(--main-highlight) 2px;
   display: flex;
   align-items: center;
-  padding: 10px 15px;
+  padding: 10px;
   margin: 10px;
   cursor: pointer;
-  font-size: 22px;
+  /* font-size: 22px; */
 
   transition: padding 0.3s ease;
 }

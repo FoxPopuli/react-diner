@@ -10,8 +10,8 @@ const Greeter = () => {
       <h1>Flavor, Precision and Perfection</h1>
       <h2>We are Jane Doe's Diner and we serve food and drinks</h2>
       <div className={classes.buttonContainer}>
-        <DinerButton text="Button 1" onClick={clickHanlder} />
-        <DinerButton text="Button 2" onClick={clickHanlder} />
+        <DinerButton text="VIEW MAIN MENU" onClick={clickHanlder} />
+        <DinerButton text="ORDER ONLINE" onClick={clickHanlder} />
       </div>
     </div>
   );
