@@ -4,6 +4,7 @@
   background-color: var(--main-dark);
   color: black;
   margin: 15px;
+  width: 100vw;
 }
 
 .logo {

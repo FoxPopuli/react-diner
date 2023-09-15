@@ -22,9 +22,22 @@
   color: white;
 }
 
+html {
+  background: url("./img/sushi.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-  margin: 0;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  /* max-width: 100vw; */
+  max-height: 100vh;
+}
+
+body {
+  /* background-color: black; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
