@@ -1,8 +1,10 @@
+import Greeter from "../components/Greeter/Greeter";
+
 const Homepage = () => {
   return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
+    <section>
+      <Greeter />
+    </section>
   );
 };
 

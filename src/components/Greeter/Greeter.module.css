@@ -1,0 +1,8 @@
+.greeterMain {
+  height: 80vh;
+}
+
+.greeterMain h1 {
+  font-size: 52px;
+  text-align: center;
+}
