@@ -1,11 +1,28 @@
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("./fonts/CenturyGothic.ttf");
+}
+
+:root {
+  --link-visited: #ca9c5e;
+  --default-font: CenturyGothic;
+  --icon-radius: 10px;
+  --large-icon-size: 40px;
+  --medium-icon-size: 30px;
+  --small-icon-size: 30px;
+}
+
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: var(--default-font);
+  color: white;
 }
 
 body {
   margin: 0;
+  background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
