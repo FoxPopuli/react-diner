@@ -7,13 +7,16 @@ const MainNav = () => {
       <h3 className={classes.logo}>Jane's Diner</h3>
       <ul className={classes.list}>
         <li className={classes.headerLinks}>
-          <Link to="/">Item 1</Link>
+          <Link to="/">About</Link>
         </li>
         <li className={classes.headerLinks}>
-          <Link to="/">Item 2</Link>
+          <Link to="/">Our Menus</Link>
         </li>
         <li className={classes.headerLinks}>
-          <Link to="/">Item 3</Link>
+          <Link to="/">Reservations</Link>
+        </li>
+        <li className={classes.headerLinks}>
+          <Link to="/">Contact</Link>
         </li>
       </ul>
     </nav>

@@ -31,19 +31,16 @@
   text-align: center;
   display: flex;
   align-items: center;
-}
-
-.headerLinks > *:hover {
-  background-color: var(--main-highlight);
+  text-decoration: none;
 }
 
 .mainNav a,
 .mainNav a:visited {
-  color: var(--header-text);
+  color: white;
 }
 
 .headerLinks a:active,
 .headerLinks a:hover {
-  color: white;
-  background-color: var(--main-highlight);
+  /* color: white; */
+  color: var(--main-highlight);
 }
