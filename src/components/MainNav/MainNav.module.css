@@ -3,6 +3,7 @@
   justify-content: space-around;
   background-color: var(--main-dark);
   color: black;
+  margin: 15px;
 }
 
 .logo {

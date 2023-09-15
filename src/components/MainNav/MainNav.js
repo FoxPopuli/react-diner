@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNav.module.css";
+import SocialLinks from "../SocialLinks/SocialLinks";
 
 const MainNav = () => {
   return (
@@ -19,6 +20,7 @@ const MainNav = () => {
           <Link to="/">Contact</Link>
         </li>
       </ul>
+      <SocialLinks />
     </nav>
   );
 };
