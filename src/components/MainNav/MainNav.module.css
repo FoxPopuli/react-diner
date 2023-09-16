@@ -4,7 +4,8 @@
   background-color: var(--main-dark);
   color: black;
   margin: 15px;
-  width: 100vw;
+  margin-top: 45px;
+  width: 90vw;
 }
 
 .logo {
@@ -26,6 +27,7 @@
 .headerLinks {
   display: flex;
   font-size: 24px;
+  display: none;
 }
 
 .headerLinks > * {
@@ -47,4 +49,11 @@
 .headerLinks a:active,
 .headerLinks a:hover {
   color: var(--main-highlight);
+}
+
+@media only screen and (min-width: 961px) {
+  .headerLinks {
+    display: flex;
+    font-size: 24px;
+  }
 }

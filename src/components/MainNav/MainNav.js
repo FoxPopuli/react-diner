@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNav.module.css";
 import SocialLinks from "../SocialLinks/SocialLinks";
+import Sidebar from "../Sidebar/Sidebar";
 
 const MainNav = () => {
   return (
@@ -23,6 +24,7 @@ const MainNav = () => {
         </li>
       </ul>
       <SocialLinks />
+      <Sidebar />
     </nav>
   );
 };
