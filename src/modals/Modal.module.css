@@ -2,14 +2,20 @@
   position: absolute;
   z-index: 1;
   width: 100vw;
+  max-width: 200vw;
   height: 100vh;
   display: flex;
+  transform: translate(-45px);
+  opacity: 1;
 
+  /* transition: opacity 0.3s ease; */
   /* background-color: rgba(0, 0, 0, 0.372); */
 }
 
 .modal.hidden {
-  display: none;
+  max-width: 0px;
+  z-index: -1;
+  opacity: 0;
 }
 
 .spacer {

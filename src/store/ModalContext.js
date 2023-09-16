@@ -2,19 +2,28 @@ import { useState, createContext } from "react";
 
 const ModalContext = createContext({
   isModalHidden: true,
-  toggleSidebar: () => {},
+  // For autocompletion
+  openSidebar: () => {},
+  closeSidebar: () => {},
 });
 
 export const ModalContextProvider = (props) => {
   const [isModalHidden, setIsModalHidden] = useState(true);
 
-  const toggleSidebar = () => {
-    setIsModalHidden((prev) => !prev);
+  const openSidebar = () => {
+    console.log("Hide modal");
+    setIsModalHidden(false);
+  };
+
+  const closeSidebar = () => {
+    console.log("Show modal");
+    setIsModalHidden(true);
   };
 
   const context = {
     isModalHidden,
-    toggleSidebar,
+    openSidebar,
+    closeSidebar,
   };
 
   return (

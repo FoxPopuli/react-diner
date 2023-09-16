@@ -4,7 +4,8 @@
   background-color: var(--main-dark);
   color: black;
   margin: 15px;
-  margin-top: 45px;
+  margin-top: 0;
+  padding-top: 45px;
   width: 90vw;
 }
 
