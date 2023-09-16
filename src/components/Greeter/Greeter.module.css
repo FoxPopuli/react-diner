@@ -10,6 +10,10 @@
   text-align: center;
 }
 
+.greeterMain h2 {
+  text-align: center;
+}
+
 .greeterMain > * {
   margin-bottom: 45px;
 }
