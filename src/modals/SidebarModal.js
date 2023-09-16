@@ -15,8 +15,6 @@ const SidebarModal = (props) => {
       onClick={clickOffHandler}
     >
       <Sidebar isHidden={ctx.isModalHidden} />
-
-      {/* <div className={classes.spacer}></div> */}
     </section>
   );
 };

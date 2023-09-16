@@ -8,7 +8,7 @@
   margin: 10px 15px;
   cursor: pointer;
 
-  transition: padding 0.3s ease;
+  transition: padding 0.1s ease;
 }
 
 .dinerButton:hover {

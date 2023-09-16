@@ -1,12 +1,13 @@
 .mainNav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--main-dark);
   color: black;
   margin: 15px;
   margin-top: 0;
   padding-top: 45px;
-  width: 90vw;
+  width: 80vw;
+  max-width: 80vw;
 }
 
 .logo {
@@ -52,9 +53,9 @@
   color: var(--main-highlight);
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1000px) {
   .headerLinks {
     display: flex;
-    font-size: 24px;
+    font-size: 22px;
   }
 }

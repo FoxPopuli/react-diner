@@ -12,7 +12,8 @@
   --small-icon-size: 30px;
 
   --main-highlight: #ca9c5e;
-  --sidebar-width: 500px;
+
+  --slide-out-breakpoint: 1000px;
 }
 
 * {
@@ -30,20 +31,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-body {
-  display: flex;
-  justify-content: center;
-  max-width: 100vw;
-  max-height: 100vh;
-}
 
 body {
-  /* background-color: black; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
