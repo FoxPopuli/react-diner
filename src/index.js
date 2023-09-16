@@ -5,6 +5,7 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { ModalContextProvider } from "./store/ModalContext";
 import SidebarModal from "./modals/SidebarModal";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

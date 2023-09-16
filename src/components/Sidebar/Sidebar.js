@@ -9,7 +9,9 @@ const Sidebar = (props) => {
   //   };
   return (
     <nav
-      className={`${classes.sidebar} ${props.isHidden ? classes.hidden : ""}`}
+      className={`${classes.sidebar} ${
+        props.isHidden ? classes.hidden : classes.show
+      }`}
     >
       <ul>
         <li>

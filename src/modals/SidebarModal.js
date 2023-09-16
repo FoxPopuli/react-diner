@@ -16,7 +16,7 @@ const SidebarModal = (props) => {
     >
       <Sidebar isHidden={ctx.isModalHidden} />
 
-      <div className={classes.spacer}></div>
+      {/* <div className={classes.spacer}></div> */}
     </section>
   );
 };
