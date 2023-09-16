@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./Sidebar.module.css";
-// import { useState } from "react";
-const Sidebar = (props) => {
-  //   const [isHidden, setIsHidden] = useState(true);
 
-  //   const toggleSidebar = () => {
-  //     setIsHidden((prev) => !prev);
-  //   };
+const Sidebar = (props) => {
   return (
     <nav
       className={`${classes.sidebar} ${
