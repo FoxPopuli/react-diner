@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-diner/static/css/main.d4668803.css",
+    "main.js": "/react-diner/static/js/main.ab22082f.js",
+    "static/media/sushi.jpg": "/react-diner/static/media/sushi.91e8dc6f7140e39f3542.jpg",
+    "static/media/AnandaBlackPersonalUseRegular-rg9Rx.ttf": "/react-diner/static/media/AnandaBlackPersonalUseRegular-rg9Rx.eb04dce4c2b321e2ef0a.ttf",
+    "static/media/CenturyGothic.ttf": "/react-diner/static/media/CenturyGothic.b1b792bab1bff8f27ba7.ttf",
+    "static/media/insta-icon.svg": "/react-diner/static/media/insta-icon.6ed2cb5264b2240800b4eca149b65721.svg",
+    "static/media/menu-icon.svg": "/react-diner/static/media/menu-icon.0156bc9d241205ffb22257d2f9f00155.svg",
+    "index.html": "/react-diner/index.html",
+    "static/media/fb-icon.svg": "/react-diner/static/media/fb-icon.6784b16b137b86060b658bd4674f6cf3.svg",
+    "main.d4668803.css.map": "/react-diner/static/css/main.d4668803.css.map",
+    "main.ab22082f.js.map": "/react-diner/static/js/main.ab22082f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4668803.css",
+    "static/js/main.ab22082f.js"
+  ]
+}
