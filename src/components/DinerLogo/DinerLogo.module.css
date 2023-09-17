@@ -1,0 +1,22 @@
+.logoMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 200px; */
+  /* height: 200px; */
+}
+
+.logoMain h1,
+.logoMain h2 {
+  text-align: center;
+}
+
+.logoMain h1 {
+  font-family: var(--logo-main-font);
+  font-size: 34px;
+}
+
+.logoMain h2 {
+  font-size: 18px;
+}

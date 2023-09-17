@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNav.module.css";
 import SocialLinks from "../SocialLinks/SocialLinks";
-import Sidebar from "../Sidebar/Sidebar";
-import SidebarModal from "../../modals/SidebarModal";
-
+import DinerLogo from "../DinerLogo/DinerLogo";
 const MainNav = () => {
   return (
     <nav className={classes.mainNav}>
       <h3 className={classes.logo}>
-        <Link to="/">Jane's Diner</Link>
+        <Link to="/">
+          <DinerLogo />
+        </Link>
       </h3>
       <ul className={classes.list}>
         <li className={classes.headerLinks}>
