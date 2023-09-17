@@ -1,9 +1,17 @@
 import classes from "./AboutSection.module.css";
+import { useState, useEffect } from "react";
 const AboutSection = () => {
+  const [isFirstLoad, setIsFirstLoad] = useState(true);
+
+  useEffect(() => {
+    setIsFirstLoad(false);
+  }, []);
   return (
     <section className={classes.main}>
-      <h1>About</h1>
-      <p>
+      <h1 className={`${classes.item1} ${!isFirstLoad ? classes.loaded : ""}`}>
+        About
+      </h1>
+      <p className={`${classes.item2} ${!isFirstLoad ? classes.loaded : ""}`}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
         imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, in
         viverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipit
@@ -14,7 +22,7 @@ const AboutSection = () => {
         sollicitudin lectus faucibus sem commodo pulvinar. Fusce pulvinar eu
         dolor et eleifend.
       </p>
-      <p>
+      <p className={`${classes.item3} ${!isFirstLoad ? classes.loaded : ""}`}>
         Aenean vitae venenatis ligula. Curabitur nec nulla faucibus diam
         elementum luctus. Morbi hendrerit ante sit amet nibh cursus dapibus.
         Vestibulum accumsan eleifend diam et tempor. Praesent vel lorem at nisi
@@ -28,7 +36,7 @@ const AboutSection = () => {
         consectetur adipiscing elit. Nullam pulvinar volutpat massa vitae
         consequat.
       </p>
-      <p>
+      <p className={`${classes.item4} ${!isFirstLoad ? classes.loaded : ""}`}>
         Pellentesque vel velit sagittis, ultricies mi ac, ullamcorper mi.
         Quisque congue ante magna, sed pulvinar enim pulvinar in. Ut varius
         metus arcu, sed porta nisl pulvinar vel. In pulvinar metus nec libero
