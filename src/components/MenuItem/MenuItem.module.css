@@ -1,0 +1,11 @@
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftGroup {
+  /* display: flex;
+  flex-direction: column;
+  flex: 1; */
+}
