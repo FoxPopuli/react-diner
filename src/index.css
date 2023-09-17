@@ -47,6 +47,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.417);
+  min-height: 100vh;
 }
 
 h1 {

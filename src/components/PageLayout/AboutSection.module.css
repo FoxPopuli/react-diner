@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.main h1 {
+  margin-bottom: 10px;
+}
+
+.main p {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 18px;
+}
