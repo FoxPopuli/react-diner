@@ -14,11 +14,16 @@
 
 .leftGroup h4 {
   color: var(--main-highlight);
+  font-size: 20px;
+}
+
+.leftGroup p {
+  font-size: 14px;
 }
 
 .price {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--secondary-highlight);
 }
