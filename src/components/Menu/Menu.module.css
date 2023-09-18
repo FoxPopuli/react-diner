@@ -1,9 +1,5 @@
-.menu {
-  max-width: 50%;
-}
-
 .menu > * {
-  margin-bottom: 10px;
+  margin: 15px 20px;
 }
 
 .titleElement {
@@ -11,14 +7,19 @@
   flex-direction: column;
 }
 
+.menuTitle {
+  color: var(--main-highlight);
+}
+
 .subTitle {
   display: flex;
   align-items: flex-end;
   font-size: 18px;
+  /* color: var(--main-highlight); */
 }
 
 .description {
-  text-align: justify;
+  text-align: left;
 }
 
 .menuItems > * {

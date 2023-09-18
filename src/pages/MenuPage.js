@@ -1,13 +1,7 @@
-import Menu from "../components/Menu/Menu";
+import MenuSection from "../components/PageLayout/MenuSection";
 
 const MenuPage = () => {
-  return (
-    <section>
-      <Menu />
-      {/* <h1>Menu</h1>
-      <p>Under Construction!</p> */}
-    </section>
-  );
+  return <MenuSection />;
 };
 
 export default MenuPage;

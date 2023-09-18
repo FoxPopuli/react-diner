@@ -1,0 +1,22 @@
+.main h1 {
+  margin-bottom: 20px;
+}
+
+.menuContainer {
+  display: flex;
+}
+
+.rightColumn > div:first-child {
+  /* margin-top: 50px; */
+}
+
+.rightColumn,
+.leftColumn {
+  /* background-color: black; */
+  /* margin: 10px; */
+}
+
+.rightColumn > *,
+.leftColumn > * {
+  margin-bottom: 50px;
+}

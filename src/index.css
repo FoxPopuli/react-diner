@@ -31,6 +31,7 @@
   box-sizing: border-box;
   font-family: var(--default-font);
   color: white;
+  font-weight: 650;
 }
 
 html {
@@ -49,7 +50,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.479);
+  background-color: rgba(0, 0, 0, 0.635);
   min-height: 100vh;
 }
 
