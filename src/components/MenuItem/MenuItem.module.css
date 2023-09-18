@@ -1,11 +1,22 @@
 .menuItem {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .leftGroup {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  flex: 1; */
+  flex: 1;
+}
+
+.leftGroup p {
+  text-align: start;
+}
+
+.leftGroup h4 {
+  color: var(--main-highlight);
+}
+
+.price {
+  display: flex;
+  align-items: center;
 }

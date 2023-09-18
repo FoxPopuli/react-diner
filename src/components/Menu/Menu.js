@@ -1,44 +1,49 @@
 import classes from "./Menu.module.css";
+import MenuItem from "../MenuItem/MenuItem";
 const Menu = (props) => {
   const items = [
     {
       title: "Menu Item 1",
-      description: "Steam grilled wank",
+      description: "Steam grilled air.",
       price: 120,
     },
     {
       title: "Menu Item 2",
-      description: "Flame charred wank",
+      description: "Flame charred wonder.",
       price: 150,
     },
     {
       title: "Menu Item 3",
-      description: "Deep fried wank",
+      description: "Deep fried hopes with a side of dreams.",
       price: 150,
     },
   ];
   return (
     <div className={classes.menu}>
-      <div>
-        <h2 className={classes.menuTitle}>QAUCKIDO</h2>
-        <h3 className={classes.subTitle}>SMALL DISHES</h3>
-      </div>
+      <h2 className={classes.titleElement}>
+        <span className={classes.menuTitle}>QUACKIDO</span>
+        <span className={classes.separator}>|</span>
+        <span className={classes.subTitle}>SMALL DISHES</span>
+      </h2>
       <p className={classes.description}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
         imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, in
         viverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipit
-        vel diam ut, sodales luctus elit. Ut pellentesque purus bibendum, cursus
-        risus vel, dapibus diam. Integer iaculis dictum est, maximus finibus
-        enim bibendum sit amet. Morbi nec ligula quis ipsum egestas pharetra
-        eget sit amet augue. Donec convallis porttitor accumsan. Nulla
-        sollicitudin lectus faucibus sem commodo pulvinar. Fusce pulvinar eu
-        dolor et eleifend.
+        vel diam ut, sodales luctus elit.
       </p>
       <ul className={classes.menuItems}>
         {items.map((item) => {
-          return <div></div>;
+          return (
+            <MenuItem
+              title={item.title}
+              description={item.description}
+              price={item.price}
+            />
+          );
         })}
       </ul>
     </div>
   );
 };
+
+export default Menu;

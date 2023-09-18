@@ -17,7 +17,9 @@
   --small-icon-size: 30px;
 
   --main-highlight: #ca9c5e;
+  --secondary-highlight: #f9c177;
 
+  --mobile-breakpoint: 500px;
   --slide-out-breakpoint: 1000px;
   --logo-main-font: AmandaBlack;
   /* --logo-main-font: ; */

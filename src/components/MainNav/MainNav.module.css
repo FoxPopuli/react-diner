@@ -39,7 +39,7 @@
   height: var(--header-height);
   text-align: center;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   text-decoration: none;
 }
 

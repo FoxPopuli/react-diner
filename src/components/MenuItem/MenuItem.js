@@ -7,7 +7,7 @@ const MenuItem = (props) => {
         <h4>{props.title}</h4>
         <p>{props.description}</p>
       </div>
-      <p>{`R${props.price}`}</p>
+      <p className={classes.price}>{`R${props.price}`}</p>
     </li>
   );
 };
