@@ -1,10 +1,7 @@
+import ReservationsSection from "../components/PageLayout/ReservationsSection";
+
 const ReservationsPage = () => {
-  return (
-    <section>
-      <h1>Reservations</h1>
-      <p>Under Construction!</p>
-    </section>
-  );
+  return <ReservationsSection />;
 };
 
 export default ReservationsPage;

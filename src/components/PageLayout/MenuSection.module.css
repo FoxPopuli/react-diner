@@ -5,8 +5,9 @@
   transition: opacity 1s, transform 1s ease;
 }
 
-.menuContainer {
+.columnContainer {
   display: flex;
+  flex-direction: row;
 }
 
 .rightColumn,
@@ -51,4 +52,10 @@
 
 .item4 {
   color: pink;
+}
+
+@media only screen and (max-width: 700px) {
+  .columnContainer {
+    flex-direction: column;
+  }
 }

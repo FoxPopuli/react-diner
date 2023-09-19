@@ -18,7 +18,7 @@ const MenuSection = () => {
       <h1 className={`${classes.title} ${!isFirstLoad ? classes.loaded : ""}`}>
         Menu
       </h1>
-      <div className={classes.menuContainer}>
+      <div className={classes.columnContainer}>
         <div
           className={`${classes.leftColumn} ${
             !isFirstLoad ? classes.loaded : ""
