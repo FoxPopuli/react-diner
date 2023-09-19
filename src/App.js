@@ -11,6 +11,8 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
+        <Route path="/react-diner" element={<Homepage />}></Route>
+
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/menu" element={<MenuPage />}></Route>
         <Route path="/reservations" element={<ReservationsPage />}></Route>

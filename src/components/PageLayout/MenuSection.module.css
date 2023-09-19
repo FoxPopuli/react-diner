@@ -1,22 +1,54 @@
-.main h1 {
+.title {
   margin-bottom: 20px;
+  transform: translate(0, -10px);
+  opacity: 0;
+  transition: opacity 1s, transform 1s ease;
 }
 
 .menuContainer {
   display: flex;
 }
 
-.rightColumn > div:first-child {
-  /* margin-top: 50px; */
-}
-
 .rightColumn,
 .leftColumn {
-  /* background-color: black; */
-  /* margin: 10px; */
+  opacity: 0;
+  transition: opacity 1s, transform 2s ease;
+}
+
+.rightColumn {
+  transform: translate(20px);
+}
+
+.leftColumn {
+  transform: translate(-20px);
+}
+
+.rightColumn.loaded,
+.leftColumn.loaded,
+.title.loaded {
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .rightColumn > *,
 .leftColumn > * {
   margin-bottom: 50px;
+}
+
+.item1 {
+  display: none;
+  color: blue;
+}
+
+.item2 {
+  color: red;
+}
+
+.item3 {
+  color: green;
+  display: none;
+}
+
+.item4 {
+  color: pink;
 }
