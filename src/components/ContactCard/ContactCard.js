@@ -7,6 +7,10 @@ const ContactCard = () => {
         <span>Sunday to Thursday</span>
         <span>Friday & Saturday</span>
       </p>
+      <p>
+        <span>11:00AM - 21:00PM</span>
+        <span>11:00AM - 22:00PM</span>
+      </p>
     </div>
   );
 };
