@@ -1,4 +1,5 @@
 import classes from "./ReservationsSection.module.css";
+import ContactCard from "../ContactCard/ContactCard";
 const ReservationsSection = () => {
   return (
     <section className={classes.main}>
@@ -16,7 +17,9 @@ const ReservationsSection = () => {
             between 11:00 am – 21:00 pm, Monday to Sunday.
           </p>
         </div>
-        <div className={classes.rightColumn}></div>
+        <div className={classes.rightColumn}>
+          <ContactCard />
+        </div>
       </div>
     </section>
   );

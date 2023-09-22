@@ -1,0 +1,18 @@
+.main {
+  /* width: 50%; */
+  /* height: 50vw; */
+  border: 1px solid var(--main-highlight);
+}
+
+.main > * {
+  margin-bottom: 15px;
+}
+
+.tradingHourGroup {
+  width: 100%;
+  display: flex;
+}
+
+.tradingHourGroup span {
+  flex: 1;
+}
