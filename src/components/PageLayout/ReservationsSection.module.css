@@ -1,5 +1,8 @@
-.main h1 {
+.title {
   margin-bottom: 20px;
+  transform: translate(0px, 20px);
+  opacity: 0;
+  transition: opacity 2.5s, transform 1s ease;
 }
 
 .columnContainer {
@@ -30,7 +33,8 @@
 }
 
 .rightColumn.loaded,
-.leftColumn.loaded {
+.leftColumn.loaded,
+.title.loaded {
   transform: translate(0px, 0px);
   opacity: 1;
 }

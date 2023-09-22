@@ -11,7 +11,9 @@ const ReservationsSection = () => {
 
   return (
     <section className={classes.main}>
-      <h1>Reservations</h1>
+      <h1 className={`${classes.title} ${isLoaded ? classes.loaded : ""}`}>
+        Reservations
+      </h1>
       <div className={classes.columnContainer}>
         <div
           className={`${classes.leftColumn} ${isLoaded ? classes.loaded : ""}`}
