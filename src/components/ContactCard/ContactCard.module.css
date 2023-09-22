@@ -1,7 +1,6 @@
 .main {
-  /* width: 50%; */
-  /* height: 50vw; */
   border: 1px solid var(--main-highlight);
+  padding: 30px;
 }
 
 .main > * {

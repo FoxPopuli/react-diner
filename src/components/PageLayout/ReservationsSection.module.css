@@ -7,6 +7,14 @@
   flex-direction: row;
 }
 
+.leftColumn {
+  margin-right: 10px;
+}
+
+.rightColumn {
+  margin-left: 10px;
+}
+
 .leftColumn,
 .rightColumn {
   flex: 1;
@@ -29,5 +37,13 @@
 @media only screen and (max-width: 700px) {
   .columnContainer {
     flex-direction: column;
+  }
+
+  .leftColumn {
+    margin-right: 0px;
+  }
+
+  .rightColumn {
+    margin-left: 0px;
   }
 }
