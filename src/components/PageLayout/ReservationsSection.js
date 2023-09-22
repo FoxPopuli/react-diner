@@ -1,5 +1,7 @@
 import classes from "./ReservationsSection.module.css";
 import ContactCard from "../ContactCard/ContactCard";
+import { useState } from "react";
+
 const ReservationsSection = () => {
   return (
     <section className={classes.main}>
