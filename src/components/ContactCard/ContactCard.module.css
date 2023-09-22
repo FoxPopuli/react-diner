@@ -1,6 +1,7 @@
 .main {
   border: 1px solid var(--main-highlight);
   padding: 30px;
+  background-color: rgba(0, 0, 0, 0.499);
 }
 
 .main > * {
@@ -14,4 +15,9 @@
 
 .tradingHourGroup span {
   flex: 1;
+}
+
+.location {
+  text-align: left;
+  padding-left: 20px;
 }

@@ -1,8 +1,8 @@
 .title {
   margin-bottom: 20px;
-  transform: translate(0px, 20px);
+  transform: translate(0px, 10px);
   opacity: 0;
-  transition: opacity 2.5s, transform 1s ease;
+  transition: opacity 1s, transform 1s ease;
 }
 
 .columnContainer {
@@ -21,15 +21,16 @@
 
 .leftColumn {
   margin-right: 10px;
-  transform: translate(0px, 20px);
-  transition: opacity 2.5s, transform 1.5s ease;
+  opacity: 0;
+  transform: translate(0px, 15px);
+  transition: opacity 1s, transform 1.5s ease;
 }
 
 .rightColumn {
   margin-left: 10px;
   opacity: 0;
-  transform: translate(0px, 30px);
-  transition: opacity 2.5s, transform 2s ease;
+  transform: translate(0px, 20px);
+  transition: opacity 1s, transform 2s ease;
 }
 
 .rightColumn.loaded,

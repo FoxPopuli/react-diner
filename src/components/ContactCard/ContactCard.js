@@ -12,7 +12,7 @@ const ContactCard = () => {
         <span>11:00AM - 22:00PM</span>
       </p>
       <h2>Location</h2>
-      <p>Restuarant at the End of the Universe</p>
+      <p className={classes.location}>Restuarant at the End of the Universe</p>
     </div>
   );
 };

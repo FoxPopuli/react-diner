@@ -36,24 +36,6 @@
   margin-bottom: 50px;
 }
 
-.item1 {
-  display: none;
-  color: blue;
-}
-
-.item2 {
-  color: red;
-}
-
-.item3 {
-  color: green;
-  display: none;
-}
-
-.item4 {
-  color: pink;
-}
-
 @media only screen and (max-width: 700px) {
   .columnContainer {
     flex-direction: column;
