@@ -7,23 +7,6 @@
   flex-direction: row;
 }
 
-.leftColumn {
-  margin-right: 10px;
-  transform: translate(0 20px);
-  transition: transform 0.5s ease;
-}
-
-.rightColumn {
-  margin-left: 10px;
-  transform: translate(0 30px);
-  transition: transform 1s ease;
-}
-
-.rightColumn.loaded,
-.leftColumn.loaded {
-  transform: translate(0, 0);
-}
-
 .leftColumn,
 .rightColumn {
   flex: 1;
@@ -31,6 +14,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.leftColumn {
+  margin-right: 10px;
+  transform: translate(0px, 20px);
+  transition: opacity 2.5s, transform 1.5s ease;
+}
+
+.rightColumn {
+  margin-left: 10px;
+  opacity: 0;
+  transform: translate(0px, 30px);
+  transition: opacity 2.5s, transform 2s ease;
+}
+
+.rightColumn.loaded,
+.leftColumn.loaded {
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .leftColumn > * {
