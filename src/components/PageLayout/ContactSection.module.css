@@ -1,3 +1,51 @@
 .main {
   display: flex;
+  width: 100%;
+}
+
+.main > * {
+  margin-bottom: 15px;
+}
+
+.tradingHourGroup {
+  width: 100%;
+  display: flex;
+}
+
+.group1,
+.group2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.group1 {
+  height: 200px;
+  /* margin-bottom: 50px; */
+}
+
+.group1 span {
+  font-size: 20px;
+}
+
+.group1 h2 {
+  font-size: 32px;
+}
+
+.tradingHourGroup span {
+  flex: 1;
+}
+
+.location {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.leftColumn,
+.rightColumn {
+  flex: 1;
+  height: 65vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
