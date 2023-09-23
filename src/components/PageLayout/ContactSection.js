@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import classes from "./ContactSection.module.css";
+import ContactCard from "../ContactCard/ContactCard";
 
 const ContactSection = () => {
   return (
@@ -22,15 +23,7 @@ const ContactSection = () => {
         </div>
 
         <div className={`${classes.group2}`}>
-          <h2>Trading Hours</h2>
-          <p className={classes.tradingHourGroup}>
-            <span>Sunday to Thursday</span>
-            <span>Friday & Saturday</span>
-          </p>
-          <p className={classes.tradingHourGroup}>
-            <span>11:00AM - 21:00PM</span>
-            <span>11:00AM - 22:00PM</span>
-          </p>
+          <ContactCard />
         </div>
       </div>
     </section>
