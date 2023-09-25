@@ -21,8 +21,8 @@ const ContactSection = () => {
         <div
           className={`${classes.rightAlign} ${isLoaded ? classes.loaded : ""}`}
         >
-          <span>T: +27 82 000 0000</span>
-          <span>E: manager@janesdiner.co.za</span>
+          <span>+27 82 000 0000</span>
+          <span>manager@janesdiner.co.za</span>
         </div>
       </div>
       <div className={`${classes.group2} ${isLoaded ? classes.loaded : ""}`}>

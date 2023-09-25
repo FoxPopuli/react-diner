@@ -13,7 +13,6 @@
 }
 
 .group1 {
-  display: flex;
   align-items: center;
 }
 
@@ -34,7 +33,7 @@
 }
 
 .group1 h2 {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .location {
@@ -75,4 +74,22 @@
 .rightAlign.loaded {
   transform: translate(0px);
   opacity: 1;
+}
+
+@media only screen and (max-width: 550px) {
+  .group1,
+  .group2 {
+    flex-direction: column;
+    height: auto;
+    align-items: baseline;
+  }
+
+  .group1 h2 {
+    text-align: left;
+    margin: 10px 0px;
+  }
+
+  .leftAlign h2 {
+    margin-bottom: 5px;
+  }
 }
