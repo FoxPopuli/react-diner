@@ -54,18 +54,25 @@
 .group1 .rightAlign,
 .group2 .leftAlign {
   transform: translate(20px);
-  opacity: 0;
-  transition: transform 1s ease;
 }
 
 .group1 .leftAlign,
 .group2 .rightAlign {
   transform: translate(-20px);
-  opacity: 0;
-  transition: transform 1s ease;
 }
 
-.loaded {
+.group1,
+.group2,
+.leftAlign,
+.rightAlign {
+  opacity: 0;
+  transition: opacity 1s, transform 2s ease;
+}
+
+.group1.loaded,
+.group2.loaded,
+.leftAlign.loaded,
+.rightAlign.loaded {
   transform: translate(0px);
   opacity: 1;
 }
