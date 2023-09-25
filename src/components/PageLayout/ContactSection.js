@@ -7,7 +7,7 @@ const ContactSection = () => {
     <section className={classes.main}>
       <div className={`${classes.group1}`}>
         <div className={classes.leftAlgin}>
-          <h2>Contact</h2>
+          <h2>Details</h2>
         </div>
         <div className={`${classes.rightAlign}`}>
           <span>T: +27 82 000 0000</span>

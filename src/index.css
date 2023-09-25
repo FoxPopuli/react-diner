@@ -57,6 +57,7 @@ body {
 h1 {
   font-size: 36px;
   text-align: center;
+  /* margin-bottom: 20px; */
 }
 
 code {
