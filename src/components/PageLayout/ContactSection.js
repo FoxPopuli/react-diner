@@ -6,7 +6,7 @@ const ContactSection = () => {
   return (
     <section className={classes.main}>
       <div className={`${classes.group1}`}>
-        <div className={classes.leftAlgin}>
+        <div className={`${classes.leftAlign}`}>
           <h2>Details</h2>
         </div>
         <div className={`${classes.rightAlign}`}>
@@ -15,12 +15,12 @@ const ContactSection = () => {
         </div>
       </div>
       <div className={`${classes.group2}`}>
-        <div className={classes.leftAlign}>
+        <div className={`${classes.leftAlign}`}>
           <h2>Follow Us</h2>
           <Link to="/">Instagram</Link>
           <Link to="/">Facebook</Link>
         </div>
-        <div className={classes.rightAlign}>
+        <div className={`${classes.rightAlign}`}>
           <ContactCard />
         </div>
       </div>

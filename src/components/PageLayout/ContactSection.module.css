@@ -50,3 +50,22 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.group1 .rightAlign,
+.group2 .leftAlign {
+  transform: translate(20px);
+  opacity: 0;
+  transition: transform 1s ease;
+}
+
+.group1 .leftAlign,
+.group2 .rightAlign {
+  transform: translate(-20px);
+  opacity: 0;
+  transition: transform 1s ease;
+}
+
+.loaded {
+  transform: translate(0px);
+  opacity: 1;
+}
