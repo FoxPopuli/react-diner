@@ -19,10 +19,7 @@
   --main-highlight: #ca9c5e;
   --secondary-highlight: #f9c177;
 
-  --mobile-breakpoint: 500px;
-  --slide-out-breakpoint: 1000px;
   --logo-main-font: AmandaBlack;
-  /* --logo-main-font: ; */
 }
 
 * {
@@ -54,10 +51,17 @@ body {
   min-height: 100vh;
 }
 
+body *::selection {
+  background: transparent;
+}
+
+body *::-moz-selection {
+  background: transparent;
+}
+
 h1 {
   font-size: 36px;
   text-align: center;
-  /* margin-bottom: 20px; */
 }
 
 code {

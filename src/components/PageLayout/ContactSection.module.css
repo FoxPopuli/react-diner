@@ -6,6 +6,10 @@
   margin-bottom: 15px;
 }
 
+.main a {
+  text-decoration: none;
+}
+
 .group1,
 .group2 {
   display: flex;
