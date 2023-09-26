@@ -17,7 +17,7 @@
 }
 
 .group1 span {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .leftAlign,
@@ -95,5 +95,9 @@
 
   .leftAlign h2 {
     margin-bottom: 5px;
+  }
+
+  .group1 span {
+    font-size: 18px;
   }
 }
