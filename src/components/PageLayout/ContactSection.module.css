@@ -17,7 +17,7 @@
 }
 
 .group1 span {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .leftAlign,
@@ -74,6 +74,10 @@
 .rightAlign.loaded {
   transform: translate(0px);
   opacity: 1;
+}
+
+.group2 .leftAlign {
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 550px) {

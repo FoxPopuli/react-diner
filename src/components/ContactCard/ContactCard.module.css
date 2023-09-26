@@ -2,6 +2,7 @@
   border: 1px solid var(--main-highlight);
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.499);
+  min-width: 260px;
 }
 
 .main > * {
