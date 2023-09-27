@@ -12,6 +12,9 @@ const ContactSection = () => {
 
   return (
     <section className={classes.main}>
+      <h1 className={`${classes.title} ${isLoaded ? classes.loaded : ""}`}>
+        Contact
+      </h1>
       <div className={`${classes.group1} ${isLoaded ? classes.loaded : ""}`}>
         <div
           className={`${classes.leftAlign} ${isLoaded ? classes.loaded : ""}`}

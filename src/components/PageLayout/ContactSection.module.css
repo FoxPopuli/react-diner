@@ -10,6 +10,22 @@
   text-decoration: none;
 }
 
+.main a:hover {
+  color: var(--main-highlight);
+}
+
+.title {
+  margin-bottom: 20px;
+  transform: translate(0, -10px);
+  opacity: 0;
+  transition: opacity 1s, transform 1s ease;
+}
+
+.title.loaded {
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+
 .group1,
 .group2 {
   display: flex;

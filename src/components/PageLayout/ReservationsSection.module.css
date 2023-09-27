@@ -1,6 +1,6 @@
 .title {
   margin-bottom: 20px;
-  transform: translate(0px, 10px);
+  transform: translate(0px, -10px);
   opacity: 0;
   transition: opacity 1s, transform 1s ease;
 }
