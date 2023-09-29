@@ -1,4 +1,4 @@
-import MenuSection from "../components/PageLayout/MenuSection";
+import MenuSection from "../components/PageLayout/MainMenuSection";
 
 const MenuPage = () => {
   return <MenuSection />;

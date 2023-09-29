@@ -1,4 +1,4 @@
-import classes from "./MenuSection.module.css";
+import classes from "./MainMenuSection.module.css";
 import menuData from "../../data/menuData";
 import Menu from "../Menu/Menu";
 import { useEffect, useState } from "react";
