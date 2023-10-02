@@ -1,18 +1,23 @@
 import classes from "./Greeter.module.css";
 import DinerButton from "../DinerButton/DinerButton";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Greeter = () => {
-  const clickHanlder = () => {
+  const navigate = useNavigate();
+
+  const menuClickHanlder = () => {
+    navigate("/menu");
     console.log("Clicked!");
+  };
+
+  const orderOnlineClickHandler = () => {
+    navigate("/construction");
+    console.log("Order online!");
   };
 
   const [isFirstLoad, setIsFirstLoad] = useState(true);
 
   useEffect(() => {
-    // setTimeout(() => {
-    //   console.log("Hi");
-    //   setIsFirstLoad(false);
-    // }, 50);
     setIsFirstLoad(false);
   }, []);
 
@@ -31,8 +36,8 @@ const Greeter = () => {
           classes.item3
         } ${!isFirstLoad ? classes.loaded : ""}`}
       >
-        <DinerButton text="VIEW MAIN MENU" onClick={clickHanlder} />
-        <DinerButton text="ORDER ONLINE" onClick={clickHanlder} />
+        <DinerButton text="VIEW MAIN MENU" onClick={menuClickHanlder} />
+        <DinerButton text="ORDER ONLINE" onClick={orderOnlineClickHandler} />
       </div>
     </div>
   );
