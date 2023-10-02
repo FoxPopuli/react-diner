@@ -61,12 +61,12 @@ const menuData = [
       {
         title: "Seafood Item 2",
         description: "Flame charred wonder.",
-        price: 150,
+        price: 140,
       },
       {
         title: "Seafood Item 3",
         description: "Deep fried hopes with a side of dreams.",
-        price: 150,
+        price: 110,
       },
     ],
   },
@@ -84,12 +84,12 @@ const menuData = [
       {
         title: "Menu Item 2",
         description: "Flame charred wonder.",
-        price: 150,
+        price: 100,
       },
       {
         title: "Menu Item 3",
         description: "Deep fried hopes with a side of dreams.",
-        price: 150,
+        price: 50,
       },
     ],
   },
