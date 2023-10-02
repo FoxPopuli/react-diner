@@ -5,7 +5,6 @@
 .titleElement {
   display: flex;
   flex-direction: column;
-  /* max-width: 300px; */
 }
 
 .menuTitle {
@@ -30,7 +29,7 @@
   display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 980px) {
   .titleElement {
     flex-direction: row;
     justify-content: space-between;

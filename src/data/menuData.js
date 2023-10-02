@@ -19,7 +19,8 @@ const menuData = [
       },
       {
         title: "SMALL DISH 3",
-        description: "Deep fried hopes with a side of dreams.",
+        description:
+          "Ut tortor eros, suscipit vel diam ut, sodales luctus elit. Ut pellentesque purus bibendum, cursus risus vel, dapibus diam. Integer iaculis dictum est, maximus finibus.",
         price: 150,
       },
     ],
@@ -32,18 +33,20 @@ const menuData = [
     items: [
       {
         title: "MAIN MEAL 1",
-        description: "Steam grilled air.",
-        price: 120,
+        description: "Nulla sollicitudin lectus faucibus sem commodo pulvinar.",
+        price: 150,
       },
       {
         title: "MAIN MEAL 2",
-        description: "Flame charred wonder.",
-        price: 150,
+        description:
+          "Integer iaculis dictum est, maximus finibus enim bibendum sit amet.",
+        price: 250,
       },
       {
         title: "MAIN MEAL 3",
-        description: "Deep fried hopes with a side of dreams.",
-        price: 150,
+        description:
+          "Proin pulvinar dignissim ornare. Ut tortor eros, suscipit vel diam ut, sodales luctus elit.",
+        price: 175,
       },
     ],
   },
@@ -54,42 +57,45 @@ const menuData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, inviverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipitvel diam ut, sodales luctus elit.",
     items: [
       {
-        title: "Seafood Item 1",
-        description: "Steam grilled air.",
-        price: 120,
+        title: "SEAFOOD DISH 1",
+        description:
+          "Curabitur ornare felis eros, in auctor libero rhoncus ac.",
+        price: 180,
       },
       {
-        title: "Seafood Item 2",
-        description: "Flame charred wonder.",
+        title: "SEAFOOD DISH 2",
+        description:
+          "Nam et eros varius purus finibus dictum eu ac erat. Suspendisse sollicitudin dictum dolor, vel mattis tellus venenatis eu.Sed hendrerit et arcu sit amet luctus.",
         price: 140,
       },
       {
-        title: "Seafood Item 3",
-        description: "Deep fried hopes with a side of dreams.",
+        title: "SEAFOOD DISH 3",
+        description:
+          "Morbi aliquam sem sit amet tincidunt aliquet. Nunc suscipit in metus eget gravida.",
         price: 110,
       },
     ],
   },
   {
     title: "QUACKADO",
-    subTitle: "SMALL DISHES",
+    subTitle: "IMAGINARY DISHES",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, inviverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipitvel diam ut, sodales luctus elit.",
     items: [
       {
-        title: "Menu Item 1",
+        title: "IMAGINARY DISH 1",
         description: "Steam grilled air.",
         price: 120,
       },
       {
-        title: "Menu Item 2",
+        title: "IMAGINARY DISH 2",
         description: "Flame charred wonder.",
         price: 100,
       },
       {
-        title: "Menu Item 3",
+        title: "IMAGINARY DISH 3",
         description: "Deep fried hopes with a side of dreams.",
-        price: 50,
+        price: 80,
       },
     ],
   },
