@@ -6,13 +6,12 @@ const Greeter = () => {
   const navigate = useNavigate();
 
   const menuClickHanlder = () => {
-    navigate("/menu");
+    navigate("/main-menu");
     console.log("Clicked!");
   };
 
   const orderOnlineClickHandler = () => {
     navigate("/construction");
-    console.log("Order online!");
   };
 
   const [isFirstLoad, setIsFirstLoad] = useState(true);

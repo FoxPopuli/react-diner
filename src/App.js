@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
 import Homepage from "./pages/Homepage";
 import AboutPage from "./pages/AboutPage";
-import MenuPage from "./pages/MenuPage";
+import MainMenuPage from "./pages/MainMenuPage";
 import ReservationsPage from "./pages/ReservationsPage";
 import ContactPage from "./pages/ContactPage";
 import ConstructionPage from "./pages/ConstructionPage";
@@ -16,7 +16,7 @@ function App() {
         <Route path="/construction" element={<ConstructionPage />}></Route>
 
         <Route path="/about" element={<AboutPage />}></Route>
-        <Route path="/menu" element={<MenuPage />}></Route>
+        <Route path="/main-menu" element={<MainMenuPage />}></Route>
         <Route path="/reservations" element={<ReservationsPage />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
       </Routes>

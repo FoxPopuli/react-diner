@@ -13,7 +13,7 @@ const Sidebar = (props) => {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/menu">Our Menus</Link>
+          <Link to="/main-menu">Our Menus</Link>
         </li>
         <li>
           <Link to="/reservations">Reservations</Link>
