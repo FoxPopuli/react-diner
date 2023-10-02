@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import MenuPage from "./pages/MenuPage";
 import ReservationsPage from "./pages/ReservationsPage";
 import ContactPage from "./pages/ContactPage";
+import ConstructionPage from "./pages/ConstructionPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/react-diner" element={<Homepage />}></Route>
+        <Route path="/construction" element={<ConstructionPage />}></Route>
 
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/menu" element={<MenuPage />}></Route>

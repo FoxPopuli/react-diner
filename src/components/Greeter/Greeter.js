@@ -11,6 +11,7 @@ const Greeter = () => {
   };
 
   const orderOnlineClickHandler = () => {
+    navigate("/construction");
     console.log("Order online!");
   };
 
