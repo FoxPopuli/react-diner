@@ -27,7 +27,6 @@ const MenuSection = () => {
           {menuData.map((menu) => {
             count1++;
             const generatedClass = "item" + count1;
-            console.log(classes[generatedClass]);
             if (count1 % 2 === 0) {
               return (
                 <div className={classes[generatedClass]}>
