@@ -1,68 +1,70 @@
 const menuData = [
   {
-    title: "QUACKADO",
+    title: "PARVUS CIBUS",
     subTitle: "SMALL DISHES",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, inviverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipitvel diam ut, sodales luctus elit.",
     items: [
       {
-        title: "Menu Item 1",
-        description: "Steam grilled air.",
+        title: "SMALL DISH 1",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit..",
         price: 120,
       },
       {
-        title: "Menu Item 2",
-        description: "Flame charred wonder.",
+        title: "SMALL DISH 2",
+        description:
+          "Nullam imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, inviverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipitvel diam ut, sodales luctus elit.",
         price: 150,
       },
       {
-        title: "Menu Item 3",
+        title: "SMALL DISH 3",
         description: "Deep fried hopes with a side of dreams.",
         price: 150,
       },
     ],
   },
   {
-    title: "QUACKADO",
-    subTitle: "SMALL DISHES",
+    title: "PRINCIPALIS CIBUM",
+    subTitle: "MAIN MEALS",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, inviverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipitvel diam ut, sodales luctus elit.",
     items: [
       {
-        title: "Menu Item 1",
+        title: "MAIN MEAL 1",
         description: "Steam grilled air.",
         price: 120,
       },
       {
-        title: "Menu Item 2",
+        title: "MAIN MEAL 2",
         description: "Flame charred wonder.",
         price: 150,
       },
       {
-        title: "Menu Item 3",
+        title: "MAIN MEAL 3",
         description: "Deep fried hopes with a side of dreams.",
         price: 150,
       },
     ],
   },
   {
-    title: "QUACKADO",
-    subTitle: "SMALL DISHES",
+    title: "MARI CIBUM",
+    subTitle: "SEAFOOD",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet purus non massa rhoncus consequat. Sed eget aliquam diam, inviverra magna. Proin pulvinar dignissim ornare. Ut tortor eros, suscipitvel diam ut, sodales luctus elit.",
     items: [
       {
-        title: "Menu Item 1",
+        title: "Seafood Item 1",
         description: "Steam grilled air.",
         price: 120,
       },
       {
-        title: "Menu Item 2",
+        title: "Seafood Item 2",
         description: "Flame charred wonder.",
         price: 150,
       },
       {
-        title: "Menu Item 3",
+        title: "Seafood Item 3",
         description: "Deep fried hopes with a side of dreams.",
         price: 150,
       },
