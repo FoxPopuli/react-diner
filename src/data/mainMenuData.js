@@ -1,4 +1,4 @@
-const menuData = [
+const mainMenuData = [
   {
     title: "PARVUS CIBUS",
     subTitle: "SMALL DISHES",
@@ -7,8 +7,7 @@ const menuData = [
     items: [
       {
         title: "SMALL DISH 1",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit..",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         price: 120,
       },
       {
@@ -101,4 +100,4 @@ const menuData = [
   },
 ];
 
-export default menuData;
+export default mainMenuData;
