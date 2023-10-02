@@ -1,7 +1,7 @@
-import ReservationsSection from "../components/PageLayout/ReservationsSection";
+import SushiMenuSection from "../components/PageLayout/SushiMenuSection";
 
-const ReservationsPage = () => {
-  return <ReservationsSection />;
+const SushiMenuPage = () => {
+  return <SushiMenuSection />;
 };
 
-export default ReservationsPage;
+export default SushiMenuPage;
