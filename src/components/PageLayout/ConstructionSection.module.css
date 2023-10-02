@@ -17,7 +17,7 @@
 .subHeading {
   opacity: 0;
   transform: translate(-25px);
-  transition: opacity 5s, transform 2s ease;
+  transition: opacity 6s, transform 2s ease;
 }
 
 .heading.loaded,
