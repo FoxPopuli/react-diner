@@ -100,6 +100,10 @@
   margin-bottom: 20px;
 }
 
+.group2 .leftAlign a {
+  width: 90px;
+}
+
 @media only screen and (max-width: 550px) {
   .group1,
   .group2 {
