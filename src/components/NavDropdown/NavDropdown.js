@@ -29,11 +29,11 @@ const NavDropdown = (props) => {
     <div className={classes.dropdown}>
       <div onClick={showDropdownHandler} className={classes.title} ref={btnRef}>
         <span>{props.title}</span>
-        <i
+        {/* <i
           className={`${classes.arrow} ${
             isActive ? classes.down : classes.right
           }`}
-        ></i>
+        ></i> */}
       </div>
 
       <ul
