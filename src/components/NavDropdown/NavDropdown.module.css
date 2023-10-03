@@ -47,7 +47,6 @@
 }
 
 .container li a:hover {
-  /* background-color: green; */
   color: var(--main-highlight);
 }
 
