@@ -26,8 +26,8 @@ const Greeter = () => {
           classes.item3
         } ${!isFirstLoad ? classes.loaded : ""}`}
       >
-        <DinerButton text="VIEW MAIN MENU" onClick={menuClickHanlder} />
-        <DinerButton text="VIEW SUSHI MENU" onClick={sushiMenuClickHandler} />
+        <DinerButton text="MAIN MENU" onClick={menuClickHanlder} />
+        <DinerButton text="SUSHI MENU" onClick={sushiMenuClickHandler} />
       </div>
     </div>
   );
