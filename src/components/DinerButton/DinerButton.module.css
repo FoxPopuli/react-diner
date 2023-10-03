@@ -4,18 +4,18 @@
   border-bottom: solid var(--main-highlight) 2px;
   display: flex;
   align-items: center;
-  padding: 10px;
-  margin: 10px 15px;
+  padding: 10px 10px;
+  margin: 15px;
   cursor: pointer;
   text-align: center;
 
-  transition: padding 0.1s ease;
+  transition: padding 0.1s, margin 0.1s ease;
 }
 
 .dinerButton:hover {
   padding-top: 15px;
-  padding-bottom: 15px;
   margin-top: 10px;
+  padding-bottom: 15px;
   margin-bottom: 10px;
   color: var(--main-highlight);
 }
