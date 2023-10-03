@@ -1,9 +1,8 @@
-import classes from "./MainMenuSection.module.css";
-import mainMenuData from "../../data/mainMenuData";
+import classes from "./MenuSection.module.css";
 import Menu from "../Menu/Menu";
 import { useEffect, useState } from "react";
 
-const MenuSection = () => {
+const MenuSection = (props) => {
   let count1 = 0;
   let count2 = 10;
 
@@ -24,7 +23,7 @@ const MenuSection = () => {
             !isFirstLoad ? classes.loaded : ""
           }`}
         >
-          {mainMenuData.map((menu) => {
+          {props.menuData.map((menu) => {
             count1++;
             const generatedClass = "item" + count1;
             if (count1 % 2 === 0) {
@@ -48,7 +47,7 @@ const MenuSection = () => {
             !isFirstLoad ? classes.loaded : ""
           }`}
         >
-          {mainMenuData.map((menu) => {
+          {props.menuData.map((menu) => {
             count2++;
             if (count2 % 2 !== 0) {
               return (

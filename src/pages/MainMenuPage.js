@@ -1,7 +1,7 @@
-import MainMenuSection from "../components/PageLayout/MainMenuSection";
-
+import MenuSection from "../components/PageLayout/MenuSection";
+import mainMenuData from "../data/mainMenuData";
 const MainMenuPage = () => {
-  return <MainMenuSection />;
+  return <MenuSection menuData={mainMenuData} />;
 };
 
 export default MainMenuPage;
