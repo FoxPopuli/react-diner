@@ -1,7 +1,8 @@
-import SushiMenuSection from "../components/PageLayout/SushiMenuSection";
+import MenuSection from "../components/PageLayout/MenuSection";
+import sushiMenuData from "../data/sushiMenuData";
 
 const SushiMenuPage = () => {
-  return <SushiMenuSection />;
+  return <MenuSection menuData={sushiMenuData} title="Sushi Menu" />;
 };
 
 export default SushiMenuPage;

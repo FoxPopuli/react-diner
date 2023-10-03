@@ -6,6 +6,7 @@ import MainMenuPage from "./pages/MainMenuPage";
 import ReservationsPage from "./pages/ReservationsPage";
 import ContactPage from "./pages/ContactPage";
 import ConstructionPage from "./pages/ConstructionPage";
+import SushiMenuPage from "./pages/SushiMenuPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/react-diner" element={<Homepage />}></Route>
         <Route path="/construction" element={<ConstructionPage />}></Route>
+        <Route path="/sushi-menu" element={<SushiMenuPage />}></Route>
 
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/main-menu" element={<MainMenuPage />}></Route>

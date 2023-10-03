@@ -15,7 +15,7 @@ const MenuSection = (props) => {
   return (
     <section className={classes.main}>
       <h1 className={`${classes.title} ${!isFirstLoad ? classes.loaded : ""}`}>
-        Main Menu
+        {props.title}
       </h1>
       <div className={classes.columnContainer}>
         <div
