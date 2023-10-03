@@ -6,8 +6,8 @@ const Greeter = () => {
   const [isFirstLoad, setIsFirstLoad] = useState(true);
   const navigate = useNavigate();
 
-  const menuClickHanlder = () => navigate("/main-menu");
-  const sushiMenuClickHandler = () => navigate("/sushi-menu");
+  const menuClickHanlder = () => navigate("/react-diner/main-menu");
+  const sushiMenuClickHandler = () => navigate("/react-diner/sushi-menu");
 
   useEffect(() => setIsFirstLoad(false), []);
 

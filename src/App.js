@@ -12,15 +12,24 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Homepage />}></Route>
+        {/* <Route path="/" element={<Homepage />}></Route> */}
         <Route path="/react-diner" element={<Homepage />}></Route>
-        <Route path="/construction" element={<ConstructionPage />}></Route>
-        <Route path="/sushi-menu" element={<SushiMenuPage />}></Route>
+        <Route
+          path="/react-diner/construction"
+          element={<ConstructionPage />}
+        ></Route>
+        <Route
+          path="/react-diner/sushi-menu"
+          element={<SushiMenuPage />}
+        ></Route>
 
-        <Route path="/about" element={<AboutPage />}></Route>
-        <Route path="/main-menu" element={<MainMenuPage />}></Route>
-        <Route path="/reservations" element={<ReservationsPage />}></Route>
-        <Route path="/contact" element={<ContactPage />}></Route>
+        <Route path="/react-diner/about" element={<AboutPage />}></Route>
+        <Route path="/react-diner/main-menu" element={<MainMenuPage />}></Route>
+        <Route
+          path="/react-diner/reservations"
+          element={<ReservationsPage />}
+        ></Route>
+        <Route path="/react-diner/contact" element={<ContactPage />}></Route>
       </Routes>
     </Layout>
   );

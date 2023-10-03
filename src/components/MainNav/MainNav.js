@@ -7,35 +7,34 @@ const MainNav = () => {
   return (
     <nav className={classes.mainNav}>
       <h3 className={classes.logo}>
-        <Link to="/">
+        <Link to="/react-diner">
           <DinerLogo />
         </Link>
       </h3>
       <ul className={classes.list}>
         <li className={classes.headerLinks}>
-          <Link to="/about">About</Link>
+          <Link to="/react-diner/about">About</Link>
         </li>
         <li className={classes.headerLinks}>
-          {/* <Link to="/main-menu">Our Menus</Link> */}
           <NavDropdown
             title="Our Menus"
             options={[
               {
                 value: "Main Menu",
-                link: "/main-menu",
+                link: "/react-diner/main-menu",
               },
               {
                 value: "Sushi Menu",
-                link: "/sushi-menu",
+                link: "/react-diner/sushi-menu",
               },
             ]}
           />
         </li>
         <li className={classes.headerLinks}>
-          <Link to="/reservations">Reservations</Link>
+          <Link to="/react-diner/reservations">Reservations</Link>
         </li>
         <li className={classes.headerLinks}>
-          <Link to="/contact">Contact</Link>
+          <Link to="/react-diner/contact">Contact</Link>
         </li>
       </ul>
       <SocialLinks />
