@@ -37,6 +37,8 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -51,11 +53,11 @@ body {
   min-height: 100vh;
 }
 
-body *::selection {
+html *::selection {
   background: transparent;
 }
 
-body *::-moz-selection {
+html *::-moz-selection {
   background: transparent;
 }
 
