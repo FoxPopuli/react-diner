@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import classes from "./MainNav.module.css";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import DinerLogo from "../DinerLogo/DinerLogo";
+import NavDropdown from "../NavDropdown/NavDropdown";
 const MainNav = () => {
   return (
     <nav className={classes.mainNav}>
@@ -15,7 +16,20 @@ const MainNav = () => {
           <Link to="/about">About</Link>
         </li>
         <li className={classes.headerLinks}>
-          <Link to="/main-menu">Our Menus</Link>
+          {/* <Link to="/main-menu">Our Menus</Link> */}
+          <NavDropdown
+            title="Our Menus"
+            options={[
+              {
+                value: "Main Menu",
+                link: "/main-menu",
+              },
+              {
+                value: "Sushi Menu",
+                link: "/sushi-menu",
+              },
+            ]}
+          />
         </li>
         <li className={classes.headerLinks}>
           <Link to="/reservations">Reservations</Link>

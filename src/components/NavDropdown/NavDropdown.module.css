@@ -1,0 +1,80 @@
+.dropdown {
+  --header-dropdown-height: var(--header-height);
+  --header-dropdown-width: 130px;
+  display: flex;
+  align-items: flex-end;
+  color: var(--header-text);
+}
+
+.container {
+  position: absolute;
+  margin-right: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  background-color: white;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 5px;
+  translate: 0px 110px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.container.hidden {
+  z-index: -1;
+  opacity: 0;
+  max-height: 0px;
+  margin: 0;
+}
+
+.container li {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.container li a {
+  transition: background-color 0.2s ease;
+  width: var(--header-dropdown-width);
+  color: black;
+
+  padding: 5px;
+}
+
+.container li a:hover {
+  background-color: var(--main-highlight);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: var(--header-height);
+}
+
+.title span {
+  margin-right: 7px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  align-self: right;
+}
+
+.arrow.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-bottom: 4px;
+
+  transition: transform 0.1s ease;
+}
+
+.arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+  transition: transform 0.1s ease;
+}
