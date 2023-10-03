@@ -6,6 +6,7 @@
   list-style: none;
   display: flex;
   margin-top: 10px;
+  align-items: center;
 }
 
 .iconContainer img {
@@ -31,7 +32,6 @@
   .iconContainer li {
     align-items: center;
     justify-content: center;
-    background-color: #fff;
   }
 
   .invert {
